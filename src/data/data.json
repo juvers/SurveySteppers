@@ -1,0 +1,49 @@
+{
+    "ClosingSurvey": {
+        "surveyId": 1,
+        "Counselor": {
+            "sectionId": 1,
+            "evaluatee": "Sales Counselor",
+            "counselorName": "Jude Kuti",
+            "counselorQuestions": [{
+                    "Q": "How would you rate our capacity? ",
+                    "qid": 1
+                },
+                {
+                    "Q": "Rate our sales relationship?",
+                    "qid": 2
+                },
+                {
+                    "Q": "Rate our support?",
+                    "qid": 3
+                },
+                {
+                    "Q": "Rate our customer service",
+                    "qid": 4
+                }
+            ]
+        },
+        "LoanProcessor": {
+            "sectionId": 2,
+            "evaluatee": "Loan Processor",
+            "loanProcessorName": "Jackson Hayes",
+            "loanProcessorQuestions": [{
+                    "Q1": "How would you rate our loan capacity? ",
+                    "qid": 1
+                },
+                {
+                    "Q2": "Rate our sales laon relationship?",
+                    "qid": 2
+                },
+                {
+                    "Q3": "Rate our support?",
+                    "qid": 3
+                },
+                {
+                    "Q4": "Rate our customer service",
+                    "qid": 4
+                }
+            ]
+        }
+    }
+}
