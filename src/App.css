@@ -1,54 +1,18 @@
-/* * {
-    border: 1px solid #f00;
-} */
-
-.App {
-    text-align: center;
+* {
+    box-sizing: border-box;
+    /* border: 1px solid #f00; */
 }
 
-.centralise {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
 
-.fa {
-    font-size: 60px !important;
-}
-
-.btn-props {
-    position: absolute;
-    top: 45%;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    border: 1px solid #f00;
-    outline: none !important;
-    background: rgba(255, 255, 255, 0.4);
-    /* color: #fff; */
-}
-
-.btn-props:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.btn-props[disabled] {
-    background: #eee;
-}
-
-.btn-left {
-    left: 10px;
-}
-
-.btn-right {
-    right: 10px;
-}
-
-.btn-left .fa {
-    margin-left: -5px;
-}
-
-.btn-right .fa {
-    margin-right: -5px;
+.main {
+    background-image: url("./assets/img/bgHHomes.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }

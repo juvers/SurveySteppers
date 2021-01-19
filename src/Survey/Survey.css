@@ -1,0 +1,101 @@
+.centralise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.survey-bg {
+    transition: opacity 3s ease;
+    transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    /* opacity: 0.75; */
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.bottom-img {
+    max-width: 127px;
+    max-height: 28px;
+    margin-top: 3px;
+}
+
+.bottom-div {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.btn-plus {
+    min-width: 150px;
+    border-radius: 2px !important;
+}
+
+.img-hhomes {
+    max-width: 80%;
+    height: auto;
+}
+
+.lead-text {
+    font-size: min(max(1.5rem, 2.5vw), 40px);
+}
+
+.fa {
+    font-size: 60px !important;
+}
+
+.btn-props {
+    position: absolute;
+    top: 45%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.4);
+    /* color: #fff; */
+}
+
+.btn-props:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-props[disabled] {
+    background: #eee;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+
+.btn-left .fa {
+    margin-left: -5px;
+}
+
+.btn-right .fa {
+    margin-right: -5px;
+}
+
+.MuiPaper-root {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5) !important;
+}
